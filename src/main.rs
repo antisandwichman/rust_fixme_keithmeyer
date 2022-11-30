@@ -47,6 +47,8 @@ fn main() {
         Color { red: 0, green: 0, blue: 0 },
     ].iter() {
         // Hint : Fix the code so you can print it using {}
+        /// Each of the {} will print out the value of the repsective color
+        /// red, green, and blue values are pulled individually from each Color object 
         println!("red: {}, green: {}, blue: {}", color.red, color.green, color.blue);
     }
 }
