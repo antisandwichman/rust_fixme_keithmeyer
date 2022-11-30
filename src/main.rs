@@ -29,6 +29,8 @@ struct Color {
     blue: u8,
 }
 
+
+
 fn main() {
     for city in [
         City { name: "Glassboro", lat: 39.702892, lon: -75.111839 },
@@ -38,12 +40,13 @@ fn main() {
         println!("{}", *city);
     }
 
+    
     for color in [
         Color { red: 128, green: 255, blue: 90 },
         Color { red: 0, green: 3, blue: 254 },
         Color { red: 0, green: 0, blue: 0 },
     ].iter() {
         // Hint : Fix the code so you can print it using {}
-        println!("{:?}", *color);
+        println!("red: {}, green: {}, blue: {}", color.red, color.green, color.blue);
     }
 }
